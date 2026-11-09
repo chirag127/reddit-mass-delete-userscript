@@ -41,8 +41,22 @@ Destructive: this deletes **your real content**. Always dry-run first and start 
 
 ## 🧠 Docs
 
-Endpoint notes, rules and test steps: [AGENTS.md](AGENTS.md). Knowledge bundle: [okf/index.md](okf/index.md).
+Endpoint notes, rules and test steps: [AGENTS.md](AGENTS.md). Knowledge bundle: [okf/index.md](../../../../../docs/okf/index.md).
 
 ## 📄 License
 
 [MIT](LICENSE) © 2026 chirag127
+
+<!-- docs-single-source -->
+## 📚 Documentation
+
+Documentation for this repository lives in the umbrella workspace, in exactly **one** place:
+
+| What | Where |
+|------|-------|
+| This script's note | [`docs/okf/scripts/reddit-mass-delete-userscript.md`](../../../../../docs/okf/scripts/reddit-mass-delete-userscript.md) |
+| All notes, catalogued | [`docs/okf/index.md`](../../../../../docs/okf/index.md) |
+| Shared knowledge | [`docs/okf/concepts/`](../../../../../docs/okf/concepts/) |
+
+It is **not** copied into this repository. Nothing in this workspace is duplicated: one
+document, one file. Verify with `node c:\ws\scripts\check-okf.mjs`.
